@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.page__container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: chocolate;
+    padding: 20px;
+}
+
+.page__content {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    flex-direction: column;
+}
+
+.page__content > h1 {
+    color: white;
+    margin-bottom: 20px;
+    font-family: cursive;
+    letter-spacing: 5px;
+}
+
+.page__expendingCards {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+}
+
+.page__expendingCardsItem {
+    background-size: cover;
+    flex: 0.1;
+    border-radius: 8px;
+    margin-right: 5px;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    transition: ease-in 2s flex;
+}
+
+.page__expendingCardsItem.active {
+    flex: 0.5;
+}
+
