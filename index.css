@@ -43,7 +43,7 @@
     background-repeat: no-repeat;
     background-position: center;
     cursor: pointer;
-    transition: ease-in 2s flex;
+    transition: ease-in 0.7s flex;
 }
 
 .page__expendingCardsItem.active {
